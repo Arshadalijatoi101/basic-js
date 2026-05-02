@@ -1,0 +1,58 @@
+/* =========================
+   GLOBAL STYLES
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* =========================
+   HEADER STYLES
+   ========================= */
+header {
+    background-color: hsl(0, 30%, 77%);
+    padding: 15px;
+}
+
+/* Menu button styling */
+#menuBtn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Navigation menu */
+#menu {
+    display: none; /* hidden by default */
+    margin-top: 10px;
+    position: sticky;
+    align-items: center;
+}
+
+/* Navigation links */
+#menu a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: rgb(119, 220, 188);
+}
+
+
+
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+@media (max-width: 600px) {
+
+    /* Make text smaller on mobile */
+    h1 {
+        font-size: 22px;
+    }
+
+    /* Full width buttons on mobile */
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
